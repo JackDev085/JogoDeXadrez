@@ -20,10 +20,9 @@ public class Position {
 	public void setColumn(int column) {
 		this.column = column;
 	}
-	
-	@Override 
-	
+	@Override
 	public String toString() {
-		return row + ", "+ column;
+		return "Position [row=" + row + ", column=" + column + "]";
 	}
+
 }

@@ -6,7 +6,7 @@ public class Board {
 	private int columns;
 	private Piece[][] pieces;
 
-	public Board(int rows, int columns, Piece[][] pieces) {
+	public Board(int rows, int columns) {
 
 		this.rows = rows;
 		this.columns = columns;
@@ -29,10 +29,12 @@ public class Board {
 		this.columns = columns;
 	}
 
-	@Override
-	public String toString() {
-		return "Board [rows=" + rows + ", columns=" + columns + "]";
+	public Piece piece(int row, int column) {
+		return pieces[row][column];
 	}
-	
+
+	public Piece piece(Position position) {
+		return pieces[position.getRow()][position.getColumn()];
+	}
 
 }
