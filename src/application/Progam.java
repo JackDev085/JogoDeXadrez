@@ -9,6 +9,7 @@ public class Progam {
 		ChessMatch chessMatch = new ChessMatch();
 		
 		UI.printBoard(chessMatch.getPieces());
+		
 	
 	}
 
