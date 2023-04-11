@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import BoardGame.Board;
-import BoardGame.Piece;
-import BoardGame.Position;
+import boardgame.Board;
+import boardgame.Piece;
+import boardgame.Position;
 import chess.pieces.Bishop;
 import chess.pieces.King;
 import chess.pieces.Knight;
